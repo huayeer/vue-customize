@@ -15,6 +15,7 @@ import { Tab, TabItem, Swiper, SwiperItem } from 'vux'
 const list = () => ['智能精选', '美食', '电影', '酒店', '外卖', '电影', '酒店', '外卖', '电影', '酒店', '外卖']
 
 export default {
+  name: 'TabNew',
   components: {
     Tab,
     TabItem,
@@ -23,7 +24,7 @@ export default {
   },
   data () {
     return {
-      list: list(),
+      list213123: list(),
       demo: '精选',
       boxWidth: 0,
       index: 0
